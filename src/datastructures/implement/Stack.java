@@ -19,7 +19,7 @@ public class Stack extends LinkedList {
 		try {
 			System.out.println("Popped Element: "+getList().getData());
 		}
-		catch(Exception e) {
+		catch(NullPointerException e) {
 			display();
 			return;
 		}

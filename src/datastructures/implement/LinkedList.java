@@ -81,7 +81,7 @@ public class LinkedList {
 			Node node = temp.getNext().getNext();
 			temp.setNext(node);
 		}
-		catch(Exception e) {
+		catch(NullPointerException e) {
 			this.head = null;
 			return;
 		}
