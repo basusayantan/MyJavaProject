@@ -12,10 +12,10 @@ public class Node {
 	}
 	
 	//getter
-	public int getData() {
+	public int getData() throws NullPointerException {
 		return this.data;
 	}
-	public Node getNext() {
+	public Node getNext() throws NullPointerException {
 		return this.next;
 	}
 	
