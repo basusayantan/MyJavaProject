@@ -1,5 +1,6 @@
 package com.linkedin.challenges.basic;
 
+@SuppressWarnings("unused")
 public class StudentProfile {
 	
 	private String firstName;

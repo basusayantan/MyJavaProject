@@ -3,7 +3,7 @@ package com.linkedin.challenges.oop.demo;
 import com.linkedin.challenges.oop.src.BankAccount;
 import com.linkedin.challenges.exceptions.InsufficientFundsException;
 
-public class Demo {
+public class EncapsulationDemo {
 
 	public static void main(String[] args) {
 		BankAccount account = new BankAccount("Sayantan Basu");
