@@ -28,8 +28,11 @@ public class Room {
 	public double getRate() {
 		return this.rate;
 	}
-	// This is to ensure that HashSet generates treats 2 objects with the 
-	//same name as equal.
+	
+	public void setRate(double rate) {
+		this.rate = rate;
+	}
+
 	@Override
 	public int hashCode() {
 		return Objects.hash(this.name);
@@ -43,5 +46,9 @@ public class Room {
 			return true;
 		}
 		return false;
+	}
+	@Override
+	public String toString() {
+		return String.format("%s %s %d %.2f", this.name, this.type, this.capacity, this.rate);
 	}
 }
